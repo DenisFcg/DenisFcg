@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-label="NextSync: Plataforma de gestão financeira pessoal com IA. Cuido do produto inteiro: API, front-end, servidor Linux e pipeline de deploy."><title>NextSync: Plataforma de gestão financeira pessoal com IA. Cuido do produto inteiro: API, front-end, servidor Linux e pipeline de deploy.</title><style>
+.s{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.up{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.fd{animation:fd .45s ease-out both}
+@keyframes fd{from{opacity:0}to{opacity:1}}
+.pulse{animation:pulse 2s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
+.flow{stroke-dasharray:6 8;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-28}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.sh{animation:sh 6s cubic-bezier(.6,0,.4,1) infinite}@keyframes sh{0%{transform:translateX(0)}60%,100%{transform:translateX(800px)}}</style>
+<defs><linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="#8b80f9" stop-opacity="0"/><stop offset=".5" stop-color="#8b80f9"/><stop offset="1" stop-color="#8b80f9" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="600" height="260" rx="14"/></clipPath>
+<radialGradient id="g" cx="1" cy="0" r="1"><stop offset="0" stop-color="#8b80f9" stop-opacity=".14"/><stop offset=".6" stop-color="#8b80f9" stop-opacity="0"/></radialGradient></defs>
+<g clip-path="url(#c)"><rect width="600" height="260" fill="#161b22"/><rect width="600" height="260" fill="url(#g)"/>
+<rect class="sh" x="-200" y="0" width="200" height="2" fill="url(#t)"/></g>
+<rect x=".5" y=".5" width="599" height="259" rx="14" fill="none" stroke="#30363d"/>
+<g class="up" style="animation-delay:.1s"><circle cx="38" cy="46" r="4.5" fill="#3fb950"/><circle class="pulse" cx="38" cy="46" r="4.5" fill="#3fb950"/><text class="m" x="52" y="51" font-size="12.5" fill="#8b80f9" letter-spacing="1">FINTECH · EM PRODUÇÃO</text></g>
+<g class="up" style="animation-delay:.2s"><text class="s" x="31" y="88" font-size="28" font-weight="700" fill="#e6edf3">NextSync</text></g>
+<g class="up" style="animation-delay:.3s"><text class="s" x="32" y="120" font-size="16" fill="#8b949e">Plataforma de gestão financeira pessoal com IA.</text><text class="s" x="32" y="144" font-size="16" fill="#8b949e">Cuido do produto inteiro: API, front-end,</text><text class="s" x="32" y="168" font-size="16" fill="#8b949e">servidor Linux e pipeline de deploy.</text></g>
+<g class="up" style="animation-delay:.42s"><rect x="32" y="204" width="73" height="28" rx="14" fill="#8b80f9" fill-opacity=".10" stroke="#8b80f9" stroke-opacity=".35"/><text class="s" x="68.5" y="222.5" font-size="13" fill="#e6edf3" text-anchor="middle">Python</text><rect x="113" y="204" width="81" height="28" rx="14" fill="#8b80f9" fill-opacity=".10" stroke="#8b80f9" stroke-opacity=".35"/><text class="s" x="153.5" y="222.5" font-size="13" fill="#e6edf3" text-anchor="middle">FastAPI</text><rect x="202" y="204" width="81" height="28" rx="14" fill="#8b80f9" fill-opacity=".10" stroke="#8b80f9" stroke-opacity=".35"/><text class="s" x="242.5" y="222.5" font-size="13" fill="#e6edf3" text-anchor="middle">Next.js</text><rect x="291" y="204" width="104" height="28" rx="14" fill="#8b80f9" fill-opacity=".10" stroke="#8b80f9" stroke-opacity=".35"/><text class="s" x="343.0" y="222.5" font-size="13" fill="#e6edf3" text-anchor="middle">PostgreSQL</text><rect x="403" y="204" width="65" height="28" rx="14" fill="#8b80f9" fill-opacity=".10" stroke="#8b80f9" stroke-opacity=".35"/><text class="s" x="435.5" y="222.5" font-size="13" fill="#e6edf3" text-anchor="middle">Nginx</text></g>
+</svg>
