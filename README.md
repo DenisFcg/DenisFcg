@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/denis-filho-cunha-godoi-9a81b72b9/">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/denis-godoi/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:denisfilhocg@gmail.com">denisfilhocg@gmail.com</a> &nbsp;·&nbsp;
   Brazil (UTC−3) &nbsp;·&nbsp;
   <a href="#versão-em-português">Versão em português</a>
@@ -79,5 +79,5 @@ O código desses projetos fica em repositórios privados, porque pertence às em
 <img src="./assets/divider.svg" width="100%" alt="" />
 
 <p align="center">
-  <sub>Let's talk about a role or a project: <a href="mailto:denisfilhocg@gmail.com">denisfilhocg@gmail.com</a> · <a href="https://www.linkedin.com/in/denis-filho-cunha-godoi-9a81b72b9/">LinkedIn</a></sub>
+  <sub>Let's talk about a role or a project: <a href="mailto:denisfilhocg@gmail.com">denisfilhocg@gmail.com</a> · <a href="https://www.linkedin.com/in/denis-godoi/">LinkedIn</a></sub>
 </p>
