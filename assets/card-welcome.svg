@@ -1,9 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-label="Welcome Stays: Painel administrativo, área da equipe e API de uma empresa de hospedagem por temporada, com rotinas automatizadas por webhooks."><title>Welcome Stays: Painel administrativo, área da equipe e API de uma empresa de hospedagem por temporada, com rotinas automatizadas por webhooks.</title><style>
 .s{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Helvetica,Arial,sans-serif} .m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
-.up{animation:up .7s cubic-bezier(.2,.7,.2,1) both}
-@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
-.fd{animation:fd .45s ease-out both}
-@keyframes fd{from{opacity:0}to{opacity:1}}
 .pulse{animation:pulse 2s ease-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes pulse{0%{opacity:.7;transform:scale(1)}100%{opacity:0;transform:scale(3.2)}}
 .flow{stroke-dasharray:6 8;animation:flow 1.2s linear infinite}
