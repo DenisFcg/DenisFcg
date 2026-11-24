@@ -1,43 +1,56 @@
-# Denis Godoi
+<p align="center">
+  <img src="./assets/header.svg" width="100%" alt="Denis Godoi, Desenvolvedor Full Stack. Python, FastAPI, Next.js, PostgreSQL e Linux." />
+</p>
 
-Desenvolvedor Full Stack em Uberlândia, MG. Estudo Ciência da Computação na UNITRI (6º período).
+<p align="center">
+  <a href="mailto:denisfilhocg@gmail.com">denisfilhocg@gmail.com</a> &nbsp;·&nbsp; Uberlândia, MG
+</p>
 
-Desenvolvo sistemas web com Next.js e Python/FastAPI e cuido também do deploy e da infraestrutura Linux do que eu mesmo construo. Desde 2024 tenho produtos próprios nas áreas de fintech, energia renovável e hospedagens, e antes disso estagiei como desenvolvedor full stack em uma startup.
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-Estou procurando uma vaga de desenvolvedor para trabalhar em time.
+### Sobre
 
-> Os repositórios dos projetos abaixo são privados, porque são sistemas de empresas em operação. Por isso descrevo cada um aqui em vez de linkar o código.
+Desenvolvo sistemas web de ponta a ponta: API em Python/FastAPI, front-end em Next.js, banco PostgreSQL e o servidor Linux onde tudo roda. Desde 2024 mantenho produtos próprios em fintech, energia solar e hospedagens. Antes disso, estagiei como desenvolvedor full stack em uma startup.
 
-## Projetos
+Estudo Ciência da Computação na UNITRI e procuro uma vaga de desenvolvedor para trabalhar em time.
 
-### NextSync
-Plataforma de gestão financeira pessoal com IA. Está no ar e eu a desenvolvo desde 2024.
-- Back-end em Python/FastAPI, front-end em Next.js e banco PostgreSQL
-- Roda em um servidor Linux que eu administro, com Nginx como proxy reverso e HTTPS com renovação automática
-- Deploy pelo GitHub Actions, com checagem de saúde e rollback automático
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-### Clube da Energia
-Marketplace de energia solar compartilhada. Site: [clubedaenergia.online](https://clubedaenergia.online)
-- Next.js, Python/FastAPI e PostgreSQL, com a API dividida em serviços separados
-- Validação dos documentos dos clientes em três camadas: pré-validação no navegador, verificação por IA com score de confiança e fila de revisão humana para os casos duvidosos
-- Fluxo de aprovação com histórico de auditoria e documentação técnica completa (modelagem de dados, contratos de API, critérios de aceite)
+### Projetos
 
-### Welcome Stays
-Sistemas internos de uma empresa de gestão de hospedagens por temporada. Site: [welcomestays.com.br](https://welcomestays.com.br)
-- Painel administrativo, área da equipe e API, com Next.js e FastAPI
-- Mapeamento e padronização dos processos (AS IS → TO BE, PDCA) e automação de rotinas com integrações e webhooks
+<p align="center">
+  <img src="./assets/card-nextsync.svg" width="49%" alt="NextSync: plataforma de gestão financeira pessoal com IA, em produção." />
+  <a href="https://clubedaenergia.online"><img src="./assets/card-clube.svg" width="49%" alt="Clube da Energia: marketplace de energia solar compartilhada." /></a>
+</p>
+<p align="center">
+  <a href="https://welcomestays.com.br"><img src="./assets/card-welcome.svg" width="49%" alt="Welcome Stays: sistemas internos de gestão de hospedagens." /></a>
+  <img src="./assets/card-gonfc.svg" width="49%" alt="GoNFC: site, API, painel e app de vendas de placas NFC." />
+</p>
 
-### GoNFC
-Site, API, painel administrativo e aplicativo para a equipe de vendas de placas NFC, feitos em TypeScript e Python.
+<sub>O código desses projetos fica em repositórios privados, porque são sistemas de empresas em operação. Abaixo mostro como duas partes deles funcionam.</sub>
 
-## Tecnologias
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-- **Linguagens:** Python, TypeScript, JavaScript, Java, SQL
-- **Front-end:** React, Next.js, React Native, TailwindCSS
-- **Back-end:** FastAPI, PostgreSQL
-- **Infra e DevOps:** Linux (Ubuntu Server), Nginx, Docker, GitHub Actions, Cloudflare, Certbot, Bash
-- **Segurança:** UFW/iptables, Fail2Ban, SSH por chave, análise de logs
+### Como publico o NextSync
 
-## Contato
+Cada push na branch principal passa pelo GitHub Actions e vai para o servidor por um script de deploy. Depois da publicação, um health check testa a API. Se ela não responder, o script volta sozinho para a versão anterior.
 
-denisfilhocg@gmail.com
+<img src="./assets/pipeline.svg" width="100%" alt="Pipeline: git push, GitHub Actions, deploy na VPS, health check. Se passar, a versão nova vai ao ar; se falhar, rollback automático." />
+
+### Validação de documentos no Clube da Energia
+
+O cliente envia os documentos. O navegador faz as primeiras checagens, a IA analisa e dá um score de confiança, e o que fica abaixo do score mínimo vai para uma fila de revisão manual.
+
+<img src="./assets/validacao.svg" width="100%" alt="Validação em três camadas: pré-validação no navegador, análise por IA com score e revisão humana para score baixo." />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+### Stack
+
+<img src="./assets/stack.svg" width="100%" alt="Stack: React, Next.js, TypeScript, Python, FastAPI, PostgreSQL, Linux, Nginx, Docker, GitHub Actions e mais." />
+
+<img src="./assets/divider.svg" width="100%" alt="" />
+
+<p align="center">
+  <sub>Para conversar sobre uma vaga ou um projeto: <a href="mailto:denisfilhocg@gmail.com">denisfilhocg@gmail.com</a></sub>
+</p>
